@@ -18,6 +18,22 @@ a:hover {
     cursor: pointer;
 }
 
+.light-gray {
+    color: #414141!important;
+}
+
+#twitter-link, #facebook-link, #dribbble-link, #instagram-link {
+    color: #2c2c2c;
+}
+
+#twitter-link:hover, #facebook-link:hover, #dribbble-link:hover, #instagram-link:hover {
+    color: #d3d3d3;
+}
+
+#bloc-6 {
+    background-color: #4b4c4c;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -88,6 +104,10 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.21);
 }
 
 .texture-paper::before {
@@ -753,7 +773,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(78, 68, 46, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -776,11 +796,12 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #303030!important;
 }
 
 .btn-atomic-tangerine:hover {
